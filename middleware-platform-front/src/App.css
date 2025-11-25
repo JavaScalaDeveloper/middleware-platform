@@ -1,0 +1,123 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.menu {
+  flex: 1;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  margin-right: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.env-button {
+  color: white !important;
+}
+
+.content {
+  padding: 24px;
+  background: #f0f2f5;
+}
+
+.carousel-container {
+  margin-bottom: 32px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.product-matrix {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-matrix-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #1890ff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-icon {
+  margin-right: 8px;
+  font-size: 16px;
+  color: #1890ff;
+}
+
+.drawer-content h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #1890ff;
+}
+
+.drawer-card {
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.drawer-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.drawer-card .ant-card-head-title {
+  font-size: 14px;
+}
+
+.drawer-card .product-icon {
+  font-size: 14px;
+}
+
+.product-page {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-page h2 {
+  color: #1890ff;
+  margin-bottom: 24px;
+}
+
+.product-page p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}

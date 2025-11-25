@@ -1,0 +1,4 @@
+/out/
+/.idea/
+/middleware-platform-front/node_modules/
+/middleware-platform-server/*/target/
