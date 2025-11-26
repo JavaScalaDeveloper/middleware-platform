@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, Button, Drawer, Card, Carousel, Row, Col, Dropdown, Space } from 'antd';
-import { AppstoreOutlined, SettingOutlined, CloudServerOutlined, SwapOutlined, ControlOutlined, GatewayOutlined, ScheduleOutlined, MessageOutlined, FileSearchOutlined } from '@ant-design/icons';
+import { AppstoreOutlined, SettingOutlined, CloudServerOutlined, SwapOutlined, ControlOutlined, GatewayOutlined, ScheduleOutlined, MessageOutlined, FileSearchOutlined, BranchesOutlined } from '@ant-design/icons';
 import './App.css';
 
 const { Header, Content } = Layout;
@@ -13,7 +13,8 @@ const products = [
   { id: 5, name: '网关中心', path: '/gateway-center', port: 8084, icon: <GatewayOutlined /> },
   { id: 6, name: '任务调度', path: '/job', port: 8085, icon: <ScheduleOutlined /> },
   { id: 7, name: '消息队列', path: '/mq', port: 8080, icon: <MessageOutlined /> },
-  { id: 8, name: '日志平台', path: '/log-platform', port: 8087, icon: <FileSearchOutlined /> }
+  { id: 8, name: '日志平台', path: '/log-platform', port: 8087, icon: <FileSearchOutlined /> },
+  { id: 9, name: '链路追踪', path: '/trace', port: 8088, icon: <BranchesOutlined /> }
 ];
 
 const environments = [

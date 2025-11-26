@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: middleware-platform-server-trace
+  datasource:
+    url: jdbc:mysql://book-i7-4mq:3306/middleware_platform_trace?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
