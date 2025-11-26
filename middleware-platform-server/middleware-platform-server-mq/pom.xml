@@ -11,8 +11,8 @@
     <groupId>com.arelore</groupId>
     <artifactId>middleware-platform-server-mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>middleware-platform-server</name>
-    <description>middleware-platform-server</description>
+    <name>middleware-platform-server-mq</name>
+    <description>消息队列</description>
     <url/>
     <licenses>
         <license/>
@@ -38,6 +38,11 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.5.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

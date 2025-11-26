@@ -1,4 +1,4 @@
-package com.arelore.middleware.platform.server.flowcontrol;
+package com.arelore.middleware.platform.server.flow.control;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

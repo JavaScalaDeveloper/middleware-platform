@@ -1,10 +1,10 @@
-package com.arelore.middleware.platform.server;
+package com.arelore.middleware.platform.server.mq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MiddlewarePlatformServerApplicationTests {
+class MiddlewarePlatformServerMqApplicationTests {
 
     @Test
     void contextLoads() {
