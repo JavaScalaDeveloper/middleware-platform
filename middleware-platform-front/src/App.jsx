@@ -89,7 +89,7 @@ const App = () => {
     <Layout className="layout">
       <Header className="header">
         <div className="logo">
-          <img src="/logo.svg" alt="Logo" style={{ height: '32px' }} />
+          <span className="logo-text">中间件管理平台</span>
         </div>
         <Menu
           theme="dark"

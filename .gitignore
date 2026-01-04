@@ -2,3 +2,4 @@
 /.idea/
 /middleware-platform-front/node_modules/
 /middleware-platform-server/*/target/
+/middleware-platform-front/dist/

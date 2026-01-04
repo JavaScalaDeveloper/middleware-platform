@@ -9,6 +9,13 @@
   padding: 0 24px;
 }
 
+.logo-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
 .menu {
   flex: 1;
 }
